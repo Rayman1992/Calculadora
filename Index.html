@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora :D XD :V  </title>
+    <link rel="stylesheet" href="Style.css" type="text/css">
+    <script src="mine.js"></script>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <h2>Hecho por Ricardo</h2>
+
+    <div>
+        Primer número: 
+        <input type="numero" class="ibox" id="uno"/>
+    </div>
+    
+    <div>
+        Segundo numero:
+        <input type="numero" class="ibox" id="dos"/>
+    </div>
+
+    <div>
+        <button id="acept" onclick="operation()">
+            Aceptar
+            <button id="rechazo" onclick="operation()">
+                Disminuir
+        </button>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+
+    <div class="calculadora">
+        <div class="display">0</div>
+            <button class="btn" id="key_operator" >AC</button>
+            <button id="borrar" class="btn">←</button>
+            <button class="btn" id="key_operator" onclick="divide">÷</button>
+            <button class="btn" id="key_operator" onclick="multipli">X</button>
+            <button id="numero">7</button>
+            <button id="numero">8</button>
+            <button id="numero">9</button>
+            <button class="btn" id="key_operator" onclick="subtract">-</button>
+            <button id="numero">4</button>
+            <button id="numero">5</button>
+            <button id="numero">6</button>
+            <button class="btn" id="key_operator" onclick="add">+</button>
+
+            <button id="numero">1</button>
+            <button id="numero">2</button>
+            <button id="numero">3</button>
+            <button class="iquals" id="igual" data-action="calculate">=</button>
+            <button class="numero" id="cero" >0</button>
+            <button class="key_operator" id="key_operator">.</button>
+           
+        
+    </div>
+    
+</body>
+
+</html>
